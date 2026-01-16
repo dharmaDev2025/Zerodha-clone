@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more info
+
+# Node dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Production
+/build
+/dist
+/dist-ssr
+
+# Testing
+/coverage
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Misc / Editor
+.DS_Store
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
